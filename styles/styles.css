@@ -23,7 +23,7 @@ p {
 	color: rgba(0,255,0,0.7);
 }
 
-section > div {
+main > div > div {
 	background-color: #cec0a6;
 	padding: 20px;
 	position: absolute;
@@ -143,9 +143,9 @@ section > div {
 }
 
 .maindisplay .flickering {
-	-webkit-animation: flicker 0.8s infinite alternate;
-	-moz-animation: flicker 0.8s infinite alternate;
-	animation: flicker 0.8s infinite alternate;
+	-webkit-animation: flicker 0.5s infinite alternate;
+	-moz-animation: flicker 0.5s infinite alternate;
+	animation: flicker 0.5s infinite alternate;
 }
 
 @keyframes flicker {
